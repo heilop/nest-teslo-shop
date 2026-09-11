@@ -32,9 +32,7 @@ export class SeedService {
     await this.productsService.deleteAllProducts();
 
     const queryBuilder = this.userRepository.createQueryBuilder();
-    await queryBuilder
-      .delete()
-      .where({})
+    await queryBuilder.delete()
       .execute()
 
   }
