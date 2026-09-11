@@ -17,6 +17,7 @@ docker-compose up -d
 6. Levantar:
 
 ```
+pnpm run start:dev
 npm run start:dev
 yarn start:dev
 
